@@ -1,0 +1,25 @@
+#can be run in any python interpreter like replit or ide like Pycharm
+
+locked_amount = 396_448_914 #current locked amount
+my_amount = 100_000 # your locked amount
+
+my_precent = round((my_amount / locked_amount) * 100, 2)
+my_allovance = round((my_precent * 4_500_000) / 100, 2)
+result = round(my_allovance * 30, 2)
+
+print(f"My Percent: {my_precent}")
+print(f"My Allovance: {my_allovance}")
+print(f"Result: {result}")
+
+
+#for more accurate calculations use code below
+locked_amount = 396_448_914
+my_amount = 110_000
+
+my_precent = (my_amount / locked_amount) * 100
+my_allovance = (my_precent * 4_500_000) / 100
+result = my_allovance * 30
+
+print(f"My Percent: {my_precent}")
+print(f"My Allovance: {my_allovance}")
+print(f"Result: {result}")
